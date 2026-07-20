@@ -1,0 +1,145 @@
+{
+  "Spatter": {
+    "description": "Weld spatter ejection \u2014 molten material expelled from weld pool",
+    "parameter ranges": {
+      "Electrode Angle": {
+        "min": 87,
+        "max": 90
+      },
+      "Current": {
+        "min": 125,
+        "max": 150
+      },
+      "Voltage": {
+        "min": 20,
+        "max": 30
+      },
+      "Weld Time (seconds)": {
+        "min": 1,
+        "max": 3
+      },
+      "Electrode Use Cycle (days)": {
+        "min": 0,
+        "max": 30
+      },
+      "Weld Temperature (Celsius)": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    "corrective actions": {
+      "Electrode Angle": "If electrode angle is outside recommended range, adjust to within range",
+      "Current": "If current is outside recommended range, adjust to within range",
+      "Voltage": "If voltage is outside recommended range, adjust to within range",
+      "Weld Time (seconds)": "If welding time is outside recommended range, adjust to within range",
+      "Electrode Use Cycle (days)": "If electrode use cycle is outside recommended range, replace electrode",
+      "Weld Temperature (Celsius)": "If welding temperature is outside recommended range, adjust to within range"
+    }
+  },
+  "Burr": {
+    "description": "Sharp edge or raised material remaining after machining/stamping",
+    "parameter ranges": {
+      "Electrode Angle": {
+        "min": 87,
+        "max": 90
+      },
+      "Current": {
+        "min": 125,
+        "max": 150
+      },
+      "Voltage": {
+        "min": 20,
+        "max": 30
+      },
+      "Weld Time (seconds)": {
+        "min": 1,
+        "max": 3
+      },
+      "Electrode Use Cycle (days)": {
+        "min": 0,
+        "max": 30
+      },
+      "Teaching Orientation (Days)": {
+        "min": 0,
+        "max": 7
+      },
+      "Weld Temperature (Celsius)": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    "corrective actions": {
+      "Electrode Angle": "If electrode angle is outside recommended range, adjust to within range",
+      "Current": "If current is outside recommended range, adjust to within range",
+      "Voltage": "If voltage is outside recommended range, adjust to within range",
+      "Weld Time (seconds)": "If welding time is outside recommended range, adjust to within range",
+      "Electrode Use Cycle (days)": "If electrode use cycle is outside recommended range, replace electrode",
+      "Teaching Orientation (Days)": "If outside of recommended range, review and adjust teaching orientation process",
+      "Weld Temperature (Celsius)": "If welding temperature is outside recommended range, adjust to within range"
+    }
+  },
+  "Edge Weld": {
+    "description": "A weld that is too close to the edge",
+    "parameter ranges": {
+      "Electrode Use Cycle (days)": {
+        "min": 0,
+        "max": 30
+      },
+      "Edge Distance (mm)": {
+        "min": 1,
+        "max": 2
+      },
+      "Electrode Angle": {
+        "min": 87,
+        "max": 90
+      },
+      "Teaching Orientation (Days)": {
+        "min": 0,
+        "max": 7
+      },
+      "Weld Temperature (Celsius)": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    "corrective actions": {
+      "Electrode Use Cycle": "If electrode use cycle is outside recommended range, replace electrode",
+      "Edge Distance": "If edge distance is outside recommended range, adjust welding position",
+      "Electrode Angle": "If electrode angle is outside recommended range, adjust to within range",
+      "Teaching Orientation (Days)": "If outside of recommended range, review and adjust teaching orientation process",
+      "Weld Temperature (Celsius)": "If welding temperature is outside recommended range, adjust to within range"
+    }
+  },
+  "stations": {
+    "station_1": {
+      "name": "Station 1",
+      "overseeing_engineer": "J. Martinez"
+    },
+    "station_2": {
+      "name": "Station 2",
+      "overseeing_engineer": "S. Patel"
+    }
+  },
+  "Dark Weld Spot": {
+    "description": "A small dark area on the weld surface",
+    "parameter ranges": {
+      "Electrode Use Cycle (days)": {
+        "min": 0,
+        "max": 30
+      },
+      "Oxidation Level": {
+        "min": 0,
+        "max": 5
+      },
+      "Weld Temperature (Celsius)": {
+        "min": 1000,
+        "max": 1500
+      }
+    },
+    "corrective actions": {
+      "Electrode Use Cycle": "If electrode use cycle is outside recommended range, replace electrode",
+      "Oxidation Level": "If oxidation level is outside recommended range, adjust process to reduce oxidation",
+      "Weld Temperature (Celsius)": "If welding temperature is outside recommended range, adjust to within range"
+    }
+  }
+}

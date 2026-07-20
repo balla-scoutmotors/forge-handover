@@ -1,0 +1,200 @@
+html, body,
+div[data-testid="stAppViewContainer"],
+section.main,
+div[data-testid="stMain"] {
+    overflow-anchor: none;
+}
+
+@keyframes thinking-seq {
+    0%, 60%, 100% { opacity: 0.15; transform: translateY(0); }
+    30%            { opacity: 1;    transform: translateY(-3px); }
+}
+.thinking-dot {
+    display: inline-block;
+    animation: thinking-seq 1.2s ease-in-out infinite both;
+    font-style: normal;
+}
+.thinking-dot:nth-child(2) { animation-delay: 0.2s; }
+.thinking-dot:nth-child(3) { animation-delay: 0.4s; }
+
+.block-container {
+    padding-top: 2.6rem;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.12rem;
+    line-height: 1.25;
+    font-weight: 800;
+    letter-spacing: -0.4px;
+    color: var(--text-color);
+}
+
+hr {
+    margin-top: 0.3rem;
+    margin-bottom: 0.9rem;
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, color-mix(in srgb, #818cf8 60%, transparent), transparent);
+}
+
+.chat-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+}
+
+div[data-testid="stBottomBlockContainer"] {
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+}
+
+div[data-testid="stChatInput"] {
+    border-radius: 12px;
+    border: none;
+}
+
+div[data-testid="stChatInput"]:focus-within {
+    border: none;
+    box-shadow: none;
+}
+
+/* Remove all borders/shadows from the sticky bottom container and its wrappers */
+div[data-testid="stBottom"],
+section[data-testid="stSidebar"] div[data-testid="stBottom"] {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+div[data-testid="stVerticalBlockBorderWrapper"],
+section[data-testid="stSidebar"] div[data-testid="stVerticalBlockBorderWrapper"] {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    border-radius: 14px;
+}
+
+/* Make the sidebar collapse ("<<") arrows visible in both themes. */
+div[data-testid="stSidebarCollapseButton"] button,
+div[data-testid="stSidebarCollapseButton"] svg,
+button[data-testid="stBaseButton-headerNoPadding"] svg {
+    color: var(--text-color) !important;
+    fill: var(--text-color) !important;
+    opacity: 1 !important;
+}
+
+.section-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.55rem;
+    font-weight: 700;
+    font-size: 1.02rem;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.section-header::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #818cf8, #c084fc);
+    box-shadow: 0 0 8px color-mix(in srgb, #818cf8 70%, transparent);
+}
+
+div[data-testid="stMetric"] {
+    background: color-mix(in srgb, var(--secondary-background-color) 55%, transparent);
+    border: 1px solid color-mix(in srgb, var(--text-color) 8%, transparent);
+    border-radius: 12px;
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.3rem;
+}
+
+div[data-testid="stMetricLabel"] {
+    margin-bottom: 0.05rem;
+}
+
+div[data-testid="stMetricValue"] {
+    margin-top: 0;
+    line-height: 1.05;
+}
+
+div[data-testid="stCaptionContainer"] {
+    margin-top: 0.1rem;
+    margin-bottom: 0.35rem;
+}
+
+.alert-card {
+    position: relative;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    border-left: 3px solid #ef4444;
+    border-radius: 12px;
+    padding: 0.7rem 0.85rem;
+    margin-bottom: 0.55rem;
+    transition: transform 0.12s ease, border-color 0.12s ease;
+}
+
+.alert-card:hover {
+    border-left-color: #dc2626;
+    transform: translateX(2px);
+}
+
+.alert-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.35rem;
+}
+
+.alert-title {
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+
+.alert-meta {
+    color: color-mix(in srgb, var(--text-color) 75%, transparent);
+    font-size: 0.86rem;
+    line-height: 1.35;
+}
+
+.badge {
+    border-radius: 999px;
+    padding: 0.12rem 0.55rem;
+    font-size: 0.75rem;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.badge-high {
+    background: #166534;
+    border-color: #15803d;
+    color: #ffffff;
+}
+
+.badge-medium {
+    background: #92400e;
+    border-color: #b45309;
+    color: #ffffff;
+}
+
+.badge-low {
+    background: #991b1b;
+    border-color: #b91c1c;
+    color: #ffffff;
+}
+
+.chat-scroll-note {
+    color: color-mix(in srgb, var(--text-color) 70%, transparent);
+    font-size: 0.82rem;
+    margin-top: 0.3rem;
+}
