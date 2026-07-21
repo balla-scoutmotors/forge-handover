@@ -12,5 +12,3 @@
 | Approver / sponsor | `<name>` | `<contact>` | Scope decisions; accepts delivery |
 
 ---
-
-> Replace `<name>` and `<contact>` placeholders with actual names and contact details before handover.
