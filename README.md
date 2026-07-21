@@ -10,11 +10,11 @@
 
 ## Preview
 
-![FORGE Detection Portal — Dashboard](assets/dashboard.png)
+![FORGE Detection Portal — Dashboard](projects/FORGE/deliverables/dashboard.png)
 
 *Full dashboard: real-time detection feed (center), AI chat interface (left), analytics charts (right).*
 
-![FORGE Detection Portal — Detection Detail](assets/chat.png)
+![FORGE Detection Portal — Detection Detail](projects/FORGE/deliverables/chat.png)
 
 *AI chat panel: structured detection breakdown, out-of-range welding parameters, recommended corrective actions, and operator escalation guidance.*
 
