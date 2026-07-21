@@ -1,0 +1,13 @@
+{
+  "part_type": "test_surface",
+  "step": 3,
+  "perspective": "top",
+  "region": "full",
+  "schema_version": "1.0",
+  "welds": [
+    {"weld_id": "w1", "x": 416, "y": 569, "z_real": null, "label": "w1 — left object (badge)"},
+    {"weld_id": "w2", "x": 1202, "y": 483, "z_real": null, "label": "w2 — centre object (watch)"},
+    {"weld_id": "w3", "x": 2126, "y": 542, "z_real": null, "label": "w3 — right object (phone)"}
+  ]
+}
+

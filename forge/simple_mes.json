@@ -1,0 +1,190 @@
+{
+  "body_shop": {
+    "station_1": {
+      "camera_1": {
+        "timestamp": "2026-06-17T08:15:42",
+        "robot_id": "ROBOT-001",
+        "station_name": "Station 1",
+        "camera_id": "CAM-1-1",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2720,
+          "electrode_condition": 0.62,
+          "total_weld_time_seconds": 1.8,
+          "electrode_tip_calibration_days": -12,
+          "part_body_change_days": -40,
+          "electrode_tip_position_mm": 1.2,
+          "electrode_tip_from_sheet_edge_mm": 2.1,
+          "teaching_retaught_days": -3,
+          "material_type": "aluminum",
+          "tool_changed_days": -20,
+          "surface_flatness_angle_degrees": 165
+        }
+      },
+      "camera_2": {
+        "timestamp": "2026-06-17T08:16:10",
+        "robot_id": "ROBOT-001",
+        "station_name": "Station 1",
+        "camera_id": "CAM-1-2",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2540,
+          "electrode_condition": 0.95,
+          "total_weld_time_seconds": 1.2,
+          "electrode_tip_calibration_days": -2,
+          "part_body_change_days": -60,
+          "electrode_tip_position_mm": 0.4,
+          "electrode_tip_from_sheet_edge_mm": 4.2,
+          "teaching_retaught_days": -30,
+          "material_type": "steel",
+          "tool_changed_days": -45,
+          "surface_flatness_angle_degrees": 179
+        }
+      },
+      "camera_3": {
+        "timestamp": "2026-06-17T08:17:05",
+        "robot_id": "ROBOT-001",
+        "station_name": "Station 1",
+        "camera_id": "CAM-1-3",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2680,
+          "electrode_condition": 0.70,
+          "total_weld_time_seconds": 1.5,
+          "electrode_tip_calibration_days": -8,
+          "part_body_change_days": -15,
+          "electrode_tip_position_mm": 0.7,
+          "electrode_tip_from_sheet_edge_mm": 3.0,
+          "teaching_retaught_days": -1,
+          "material_type": "steel",
+          "tool_changed_days": -25,
+          "surface_flatness_angle_degrees": 150
+        }
+      }
+    },
+    "station_2": {
+      "camera_1": {
+        "timestamp": "2026-06-17T08:18:30",
+        "robot_id": "ROBOT-002",
+        "station_name": "Station 2",
+        "camera_id": "CAM-2-1",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2920,
+          "electrode_condition": 0.30,
+          "total_weld_time_seconds": 2.4,
+          "electrode_tip_calibration_days": -25,
+          "part_body_change_days": -5,
+          "electrode_tip_position_mm": 1.9,
+          "electrode_tip_from_sheet_edge_mm": 1.4,
+          "teaching_retaught_days": -18,
+          "material_type": "aluminum",
+          "tool_changed_days": -2,
+          "surface_flatness_angle_degrees": 120
+        }
+      },
+      "camera_2": {
+        "timestamp": "2026-06-17T08:19:15",
+        "robot_id": "ROBOT-002",
+        "station_name": "Station 2",
+        "camera_id": "CAM-2-2",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2560,
+          "electrode_condition": 0.92,
+          "total_weld_time_seconds": 1.1,
+          "electrode_tip_calibration_days": -3,
+          "part_body_change_days": -70,
+          "electrode_tip_position_mm": 0.2,
+          "electrode_tip_from_sheet_edge_mm": 3.8,
+          "teaching_retaught_days": -40,
+          "material_type": "steel",
+          "tool_changed_days": -50,
+          "surface_flatness_angle_degrees": 178
+        }
+      },
+      "camera_3": {
+        "timestamp": "2026-06-17T08:20:00",
+        "robot_id": "ROBOT-002",
+        "station_name": "Station 2",
+        "camera_id": "CAM-2-3",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2790,
+          "electrode_condition": 0.55,
+          "total_weld_time_seconds": 1.9,
+          "electrode_tip_calibration_days": -14,
+          "part_body_change_days": -22,
+          "electrode_tip_position_mm": 1.1,
+          "electrode_tip_from_sheet_edge_mm": 2.3,
+          "teaching_retaught_days": -6,
+          "material_type": "aluminum",
+          "tool_changed_days": -30,
+          "surface_flatness_angle_degrees": 145
+        }
+      }
+    },
+    "station_3": {
+      "camera_1": {
+        "timestamp": "2026-06-17T08:21:45",
+        "robot_id": "ROBOT-003",
+        "station_name": "Station 3",
+        "camera_id": "CAM-3-1",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2510,
+          "electrode_condition": 0.98,
+          "total_weld_time_seconds": 1.0,
+          "electrode_tip_calibration_days": -1,
+          "part_body_change_days": -80,
+          "electrode_tip_position_mm": 0.1,
+          "electrode_tip_from_sheet_edge_mm": 4.6,
+          "teaching_retaught_days": -55,
+          "material_type": "steel",
+          "tool_changed_days": -60,
+          "surface_flatness_angle_degrees": 179
+        }
+      },
+      "camera_2": {
+        "timestamp": "2026-06-17T08:22:30",
+        "robot_id": "ROBOT-003",
+        "station_name": "Station 3",
+        "camera_id": "CAM-3-2",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2880,
+          "electrode_condition": 0.28,
+          "total_weld_time_seconds": 2.2,
+          "electrode_tip_calibration_days": -28,
+          "part_body_change_days": -4,
+          "electrode_tip_position_mm": 1.6,
+          "electrodep_tip_from_sheet_edge_mm": 1.7,
+          "teaching_retaught_days": -20,
+          "material_type": "aluminum",
+          "tool_changed_days": -3,
+          "surface_flatness_angle_degrees": 118
+        }
+      },
+      "camera_3": {
+        "timestamp": "2026-06-17T08:23:15",
+        "robot_id": "ROBOT-003",
+        "station_name": "Station 3",
+        "camera_id": "CAM-3-3",
+        "status": "active",
+        "robot_data": {
+          "peak_temperature_celsius": 2700,
+          "electrode_condition": 0.60,
+          "total_weld_time_seconds": 1.6,
+          "electrode_tip_calibration_days": -10,
+          "part_body_change_days": -18,
+          "electrode_tip_position_mm": 0.6,
+          "electrode_tip_from_sheet_edge_mm": 3.2,
+          "teaching_retaught_days": -5,
+          "material_type": "steel",
+          "tool_changed_days": -28,
+          "surface_flatness_angle_degrees": 152
+        }
+      }
+    }
+  }
+}
