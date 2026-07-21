@@ -48,5 +48,7 @@
 | Dashboard UI | `https://forge-alb.intern-app-sbx-001.sctmtrs.xyz/` — Scout device + Zscaler required |
 
 ---
-
+Architecture diagrams: 
+https://scoutmotors-my.sharepoint.com/:u:/p/joshua_wigfall/IQCr_yhG1qM3Qrix9R0y4T_NAc4OK8Ier0P-eGZ_y_yrogs?e=3ZY7t6
+https://lucid.app/lucidchart/f60d1808-3fcb-45b9-876f-23c8d0822d2a/edit?viewport_loc=-2557%2C-6067%2C9961%2C4722%2C0_0&invitationId=inv_371c12d2-4c94-42a2-8929-ba82f44ac5dc
 ## On failure, begin at [docs/RUNBOOK.md](projects/FORGE/docs/RUNBOOK.md).
